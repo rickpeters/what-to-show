@@ -14,6 +14,8 @@ A Rapsberry Pi 4 with 4 GB, A Pimoroni Inky What and a Pimoroni Button Shim. Thi
 * use buttons to change what is displayed
 * on bootit should have predictable behaviour and show a nice display
 
+I started out with problems because the button shim has bad connections when not soldered :-( See resources to find out the five pins that need to be soldered
+
 ## TDD
 
 What framework to use?
@@ -38,16 +40,17 @@ The Inky What has a nice library which essentially only allows you to show a PIL
 * (Pimoroni What)[https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-inky-what]
 * (Inky Python Library)[https://github.com/pimoroni/inky]
 * PIL or pillow[https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html]
+* (Pin layout)[https://pinout.xyz/pinout/button_shim#] of Button Shim
 
 ## Action Plan
 
 Since I need something that works and something that 'moves' I will start easy.
 
-[x] create a Github project
-[x] basic README.md with goals
-[x] switch to IDE with remote development
-[ ] combine What example for displaying images and Buttonshim example and allow to change pictures using button press
-[ ] start working on 'panel' interface with just one panel and show the image using TDD approach
-[ ] repeat
-[ ] web-interface
+- [x] create a Github project
+- [x] basic README.md with goals
+- [x] switch to IDE with remote development
+- [ ] combine What example for displaying images and Buttonshim example and allow to change pictures using button press
+- [ ] start working on 'panel' interface with just one panel and show the image using TDD approach
+- [ ] repeat
+- [ ] web-interface
 
