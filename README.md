@@ -32,8 +32,20 @@ The Inky What has a nice library which essentially only allows you to show a PIL
 ## Resources
 
 * (Pimoroni Buttonshim)[https://github.com/pimoroni/button-shim]
-* (Pimoroni What)
-* PIL or pillow
+* (Pimoroni What)[https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-inky-what]
+* (Inky Python Library)[https://github.com/pimoroni/inky]
+* PIL or pillow[https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html]
 
+## Action Plan
 
+Since I need something that works and something that 'moves' I will start easy.
+
+[x] create a Github project
+[x] basic README.md with goals
+[ ] basic code to combine necessary dependencies
+[ ] switch to IDE with remote development
+[ ] combine What example for displaying images and Buttonshim example and allow to change pictures using button press
+[ ] start working on 'panel' interface with just one panel and show the image using TDD approach
+[ ] repeat
+[ ] web-interface
 
