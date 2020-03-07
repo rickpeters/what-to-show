@@ -21,6 +21,9 @@ Also, it would be nice to be able to test functionality without having the Pi av
 
 ## Remote development
 
+Since I already use VSCode it seemed logical to try what was possible. I found this great article from Scott Hanselman on [Visual Studio Remote Development over SSH to Raspberry PI](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx). I already use the VSCode Remote Development extension so this was a breeze to setup and it worked without any glitch. I also installed a common Python Extension (ms-python.python) and Python Test Explorer (
+littlefoxteam.vscode-python-test-adapter) to try this for doing TDD
+
 ## Showing panels
 
 The Inky What has a nice library which essentially only allows you to show a PIL image at once. This image can be created using the PIL (or more moder pillow) library. What I would like is an additional abstraction layer that makes it possible to: * divide the What display in several 'panels' that together form te total diaplay area
@@ -42,8 +45,7 @@ Since I need something that works and something that 'moves' I will start easy.
 
 [x] create a Github project
 [x] basic README.md with goals
-[ ] basic code to combine necessary dependencies
-[ ] switch to IDE with remote development
+[x] switch to IDE with remote development
 [ ] combine What example for displaying images and Buttonshim example and allow to change pictures using button press
 [ ] start working on 'panel' interface with just one panel and show the image using TDD approach
 [ ] repeat
